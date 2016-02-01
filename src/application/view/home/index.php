@@ -15,8 +15,8 @@
 </head>
 <body>
 
-<?PHP require APP . '../_template/header.php'; ?>
-<?PHP require APP . '../_template/navigation.php'; ?>
+<?PHP require APP . 'view/_templates/header.php'; ?>
+<?PHP require APP . 'view/_templates/navigation.php'; ?>
 
 <div class="container">
     <h2>You are in the View: application/view/home/index.php (everything in the box comes from this file)</h2>
