@@ -14,15 +14,14 @@
     <link href="<?php echo URL; ?>css/style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- logo -->
-    <div class="logo">
-        MINI
-    </div>
 
-    <!-- navigation -->
-    <div class="navigation">
-        <a href="<?php echo URL; ?>">home</a>
-        <a href="<?php echo URL; ?>home/exampleone">subpage</a>
-        <a href="<?php echo URL; ?>home/exampletwo">subpage 2</a>
-        <a href="<?php echo URL; ?>songs">songs</a>
-    </div>
+<?PHP require APP . '../_template/header.php'; ?>
+<?PHP require APP . '../_template/navigation.php'; ?>
+
+<div class="container">
+    <h2>You are in the View: application/view/home/index.php (everything in the box comes from this file)</h2>
+    <p>In a real application this could be the homepage.</p>
+</div>
+
+</body>
+</html>
