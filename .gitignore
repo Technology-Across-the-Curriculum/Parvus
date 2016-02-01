@@ -47,6 +47,10 @@ crashlytics.properties
 crashlytics-build.properties
 
 ## Parvus ingore files
-/application/config/config.php
+/src/application/config/config.php
+
+## Vagrant ingore files
+_vagrant/.vagrant
+_vagrant/Vagrantfile
 
 
