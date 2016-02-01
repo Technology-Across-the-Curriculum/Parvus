@@ -1,6 +1,6 @@
 <!-- logo -->
-<div class="logo">
-    MINI
+<div>
+    <h1>Parvus</h1>
 </div>
 
 
