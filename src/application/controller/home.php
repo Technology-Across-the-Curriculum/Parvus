@@ -10,6 +10,19 @@
  */
 class Home extends Controller
 {
+    function __construct(){
+        /** This is an example for loading models and entities for the controller to use.
+          * The name in the array should be the same as the file name.
+        **/
+
+        // Model
+        // $models = array('modelexample');
+        // $this->_loadModel($models);
+
+        // Entity
+        // $entities = array('entityexample');
+        // $this->_loadEntity($entities);
+    }
 
     /**
      * PAGE: index
