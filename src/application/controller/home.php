@@ -10,11 +10,6 @@
  */
 class Home extends Controller
 {
-    function __construct()
-    {
-        $models = array('modelexample');
-        $this->_loadModel($models);
-    }
 
     /**
      * PAGE: index

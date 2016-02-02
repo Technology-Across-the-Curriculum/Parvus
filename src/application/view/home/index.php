@@ -20,11 +20,14 @@
     <div class="content">
         <?php require APP . 'view/_templates/header.php'; ?>
         <?php ##require APP . 'view/_templates/navigation.php'; ?>
-        <?php $this->model['modelexample']->ParvusInfo(); ?>
-    <div>
-        <p><strong>Forked: </strong>Panique / Mini</p>
+        <div>
+            <p>You are in the View: application/view/home/index.php (everything in the box comes from this file)</p>
+            <p>In a real application this could be the homepage.</p>
+        </div>
+        <div>
+            <p><strong>Forked: </strong>Panique / Mini</p>
+        </div>
     </div>
-</div>
 
 </body>
 </html>
