@@ -52,5 +52,6 @@ crashlytics-build.properties
 ## Vagrant ingore files
 _vagrant/.vagrant
 _vagrant/Vagrantfile
+_vagrant/bootstrap.sh
 
 
