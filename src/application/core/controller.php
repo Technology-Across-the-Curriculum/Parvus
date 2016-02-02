@@ -7,6 +7,11 @@ class Controller
      */
     public $model = null;
 
+    /**
+     * @var null Entity
+     */
+    public $entity = null;
+
 
     function _loadModel($model)
     {
@@ -15,6 +20,17 @@ class Controller
                 require APP . 'class/model/' . $m . '.php';
                 $mod = ucfirst($m);
                 $this->model[$m] = new $mod();
+            }
+        }
+    }
+
+    function _loadEntity($entity)
+    {
+        foreach ($entity as $e) {
+            if (file_exists(APP . 'class/entity/' . $e . '.php') && empty($this->entity[$e])) {
+                require APP . 'class/entity/' . $e . '.php';
+                $ent = ucfirst($e);
+                $this->entity[$e] = new $ent();
             }
         }
     }
