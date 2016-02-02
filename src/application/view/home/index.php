@@ -18,10 +18,11 @@
 <body>
 <div class="container">
     <div class="content">
-
         <?php require APP . 'view/_templates/header.php'; ?>
         <?php ##require APP . 'view/_templates/navigation.php'; ?>
         <?php $this->model['modelexample']->ParvusInfo(); ?>
+    <div>
+        <p><strong>Forked: </strong>Panique / Mini</p>
     </div>
 </div>
 
