@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -20,6 +21,8 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6{
+    padding: 0px;
+    margin:0px;
 
 }
 h1 {
@@ -48,4 +51,5 @@ h6 {
 
 p {
     font-size:24px;
+
 }
